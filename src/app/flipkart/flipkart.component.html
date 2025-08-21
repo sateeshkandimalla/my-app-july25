@@ -1,0 +1,8 @@
+<div class="parent">
+    <div class="card" *ngFor="let Flipkart of flipkart" >
+<img src="{{ Flipkart.image}}" width="200px" height="200px" >
+            <H4>{{ Flipkart.category}}</H4>
+            <H6 style="color: rgb(2, 73, 165);">{{ Flipkart.title}}</H6>
+            <H6 style="color: red;">Rs. {{ Flipkart.price}}</H6>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(157, 227, 189);
+    display: flex;
+    overflow: auto;
+    
+}
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.right{
+      width: 80%;
+    height: 100%;
+    background-color: rgb(127, 193, 255);
+}

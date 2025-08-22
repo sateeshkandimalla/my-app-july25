@@ -15,6 +15,7 @@ import { VehcilesService } from './vehciles.service';
 import { VehicleComponent } from './vehicle/vehicle.component';
 import { FlipkartComponent,} from './flipkart/flipkart.component';
 import { EmailComponent } from './email/email.component';
+import { PinterestComponent } from './pinterest/pinterest.component';
 
 const routes: Routes = [
   // parent routing
@@ -30,6 +31,8 @@ const routes: Routes = [
         {path:"vehicles",component:VehicleComponent},
         {path:"flipkart",component:FlipkartComponent},
          {path:"email",component:EmailComponent},
+         {path:"pinterest",component:PinterestComponent},
+
   ]},
    {path:"**",component:ErrorComponent},//wildcard/error routing 
      

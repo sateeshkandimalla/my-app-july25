@@ -19,6 +19,7 @@ import { VehicleComponent } from './vehicle/vehicle.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FlipkartComponent } from './flipkart/flipkart.component';
 import { EmailComponent } from './email/email.component';
+import { PinterestComponent } from './pinterest/pinterest.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { EmailComponent } from './email/email.component';
     BMIComponent,
     VehicleComponent,
     FlipkartComponent,
-    EmailComponent
+    EmailComponent,
+    PinterestComponent
   ],
   imports: [
     BrowserModule,
